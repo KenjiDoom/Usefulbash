@@ -3,7 +3,7 @@ FILE="$1"
 
 if [[ $FILE = *.py ]]
 then
-	echo "Python file passed"
+	python $FILE
 else
 	echo "None"
 fi
